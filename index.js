@@ -11,7 +11,7 @@ const formatDate = (timeInSeconds) => {
 
         if (timeInSeconds >= 60 && timeInSeconds < 3600) {
             if (seconds != 0) {
-                return `${minuts}m ${seconds}s`;
+                return `${minutes}m ${seconds}s`;
             } else {
                 return `${minutes}m`;
             }
