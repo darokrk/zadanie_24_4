@@ -11,7 +11,7 @@ describe('formatDate', () => {
             assert.equal(actual, expected);
         });
     });
-
+    /*
     describe('minutes', () => {
         ...
     });
@@ -19,4 +19,5 @@ describe('formatDate', () => {
     describe('hours', () => {
         ...
     });
+    */
 });
